@@ -1,7 +1,81 @@
 body{
+    margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 48px;
 }
-sp
+h2{
+    font-size: 38px;
+}
+h3{
+    font-size: 20px;
+}
+.orange-highlight{
+    color: darkorange;
+}
+#i-color-red{
+    color: darkred;
+}
+.half-width{
+    float: left;
+    font-weight: 300;
+    width: 40%;
+    padding-left:3%;
+    margin-left:4%;
+
+}
+p{
+    text-align: justify;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon , tomato);
+    padding: 8px 20px ;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 80px;
+}
+.individual-experiance{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    width: 40%;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiance-area{
+    background-position: left;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+.experiance-area p{
+    padding-right: 5%;
+}
+#full-stock{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
